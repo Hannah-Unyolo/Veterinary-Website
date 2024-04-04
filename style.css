@@ -1,0 +1,144 @@
+#yourpet{
+    display: flex;
+    gap: 20%;
+    margin: 40px;
+  }
+.topnav {
+    display: inline-flex;
+    gap: 30px;
+   color: black;
+    
+    }
+.content1{
+    display: flex;
+    gap: 10%;
+    background-color: rgb(237, 245, 242);
+    border-radius: 8px;
+}
+
+#back{
+
+    background-image: url(Images/womandog.png);width: 20%;
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    border-radius: 100px 100px;
+}
+
+#get{
+    border-radius: 8px;
+}
+
+.content2{
+    display: flex;
+    gap: 30%;
+}
+.radio{
+    display: flex;
+    gap: 15%;
+}
+.content4{
+    display: flex;
+    background-color: rgb(237, 245, 242);
+    border-radius: 8px;
+}
+.content5{
+    display: flex;
+    gap: 20%;
+}
+.content6{
+    display: flex;
+    gap: 20%;
+}
+.content7{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+    gap: 20%;
+}
+.input{
+    width: 50%;
+    height: 50px;
+    border-radius: 12px;
+}
+#button2{
+    border-radius: 12px;
+    height: 50px;
+    background-color: rgb(48, 48, 225);
+    color:aliceblue;
+}
+.content8{
+    background-color: rgb(127, 234, 255);
+    text-align: center;
+    border-radius: 12px;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+#col{
+    color: orangered;
+    font-weight: bolder;
+}
+.class{
+    display: flex;
+}
+
+#container{
+    background-color: rgb(222, 243, 236);
+    margin: 60px;
+    padding: 60px;
+    border-radius: 12px;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 667px){
+    #yourpet{
+        display: flex;
+flex-wrap: wrap;
+      }
+    .topnav {
+        display:flex;
+        flex-wrap: wrap;
+        
+        }
+    .content1{
+        display: flex;
+flex-wrap: wrap;
+    }
+    .content2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .radio{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content4{
+        display: flex;
+flex-wrap: wrap;
+    }
+    .content5{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content7{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sub{
+        font-size: large;
+    }
+    #container{
+margin: 0%;
+    }
+}
